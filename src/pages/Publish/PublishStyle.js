@@ -68,3 +68,21 @@ export const Cover = styled.input`
     font-size: 10pt;
   }
 `;
+
+export const Button = styled.button`
+  height: 56px;
+  background: #14c767;
+  color: white;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+`;

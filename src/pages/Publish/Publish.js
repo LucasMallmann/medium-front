@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import api from '../../services/api';
 
-import { Container, PostForm, PostTitle, Body, Description, Cover } from './PublishStyle';
+import { Container, PostForm, PostTitle, Body, Description, Cover, Button } from './PublishStyle';
 
 class Publish extends Component {
   state = {
@@ -48,7 +48,7 @@ class Publish extends Component {
           <Cover type="file" placeholder="Select an image" onChange={this.onSelectFile} />
           <Description name="description" placeholder="Write your description" />
           <Body multiline name="text" placeholder="Tell your story here..." />
-          <button type="submit">Post</button>
+          <Button type="submit">Post</Button>
         </PostForm>
       </Container>
     );
