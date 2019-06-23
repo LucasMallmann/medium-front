@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
+export const Header = styled.header`
+  border-bottom: solid 1px #ccc;
+`;
+
+export const Container = styled.div`
   display: flex;
+  width: 70%;
+  margin: 0 auto;
 
   justify-content: space-between;
   align-items: center;
 
-  padding: 0 10rem;
-
   height: 56px;
-  border-bottom: solid 1px #ccc;
 
   color: rgba(0, 0, 0, 0.54);
 
