@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react';
 import GlobalStyle from './GlobalStyle';
-import Feed from './pages/Feed/Feed';
+
+import Routes from './routes';
 
 function App() {
   return (
     <Fragment>
       <GlobalStyle />
-      <Feed />
+      <Routes />
     </Fragment>
   );
 }

@@ -2,8 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   body {
+    @import url("https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,700&display=swap");
     padding: 0;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   ul, li {
