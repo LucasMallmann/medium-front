@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const baseURL = 'http://localhost:3000';
+export const baseURL = 'https://clone-medium-api.herokuapp.com';
 
 const axiosInstance = axios.create({ baseURL });
 

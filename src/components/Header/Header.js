@@ -13,7 +13,7 @@ const Header = () => (
         <Link to="/share">
           <li>share</li>
         </Link>
-        <Link to="publish">
+        <Link to="/publish">
           <li>publish</li>
         </Link>
       </ul>

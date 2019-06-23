@@ -95,3 +95,15 @@ export const ClapContainer = styled.div`
   left: 120px;
   top: 40%;
 `;
+
+export const Loading = styled.div`
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    color: #008e00;
+    font-size: 24px;
+  }
+`;
