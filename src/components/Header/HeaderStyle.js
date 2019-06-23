@@ -16,15 +16,21 @@ export const Container = styled.div`
 
   color: rgba(0, 0, 0, 0.54);
 
+  img {
+    width: 100px;
+    height: 70px;
+  }
+
   ul {
     display: flex;
     a {
       color: rgba(0, 0, 0, 0.54);
+      text-transform: capitalize;
       &:not(:last-child) {
         margin-right: 16px;
       }
       &:hover {
-        color: #424242;
+        color: #008e00;
       }
     }
   }
