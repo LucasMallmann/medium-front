@@ -3,7 +3,7 @@ import { format } from 'date-fns';
 import ReactMarkdown from 'react-markdown';
 import Clap from 'react-clap-button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faCircleNotch } from '@fortawesome/free-solid-svg-icons';
+import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
 
 import api, { baseURL } from '../../services/api';
 import Codeblock from '../../components/Codeblock/Codeblock';

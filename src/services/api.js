@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const baseURL = 'https://clone-medium-api.herokuapp.com';
+export const baseURL = process.env.REACT_APP_API_URL;
 
 const axiosInstance = axios.create({ baseURL });
 

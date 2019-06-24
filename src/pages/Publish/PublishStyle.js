@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Form, Input, FileInput } from '@rocketseat/unform';
+import { Form, Input } from '@rocketseat/unform';
 
 export const Container = styled.div`
   width: 70%;
