@@ -21,7 +21,7 @@ class Feed extends Component {
       this.setState({
         posts: data.docs,
         loading: false,
-      });
+      }); 
     } catch (error) {
       this.setState({ loading: false });
       console.log(error);
